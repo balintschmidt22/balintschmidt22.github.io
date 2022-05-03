@@ -20,7 +20,7 @@ p{
     overflow: hidden;
 }
 
-nav#tartalomraugras a{
+.tartalomraugras a{
     position: absolute;
     left: -10000px;
     top: auto;
@@ -29,7 +29,7 @@ nav#tartalomraugras a{
     overflow: hidden;
 }
 
-nav#tartalomraugras a:focus{
+.tartalomraugras a:focus{
     position:static; 
     background-color:white;
     width: auto;
@@ -331,6 +331,16 @@ fieldset{
 
 .top{
     font-size: 0.8em;
+}
+
+.title{
+    font-family: serif;
+    font-size: 1.2em;
+}
+
+.medals{
+    font-family: sans-serif;
+    font-size: 1em;
 }
 
 @media screen and (max-width: 1007px) {

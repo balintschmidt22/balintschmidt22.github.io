@@ -10,9 +10,9 @@
     <link rel="stylesheet" href="print.css">
 </head>
 <body>
-    <a name="top"></a>
+    <a id="top"></a>
     <header>
-        <nav id="tartalomraugras" class="rejtett">
+        <nav class="tartalomraugras, rejtett">
             <h2>Ugrás az oldalon belül</h2>
                 <p><a href="#tartalom">Ugrás a tartalomra</a></p>
         </nav>
@@ -78,25 +78,25 @@
         <img class="img_right" src="bphonved-cimer-2020.png" alt="A Honvéd jelenlegi címere">
         <article>
             <h2 id="napjainkban">Napjainkban</h2>
-                <p>Új edzővel, az olasz Marco Rossival kezdett a csapat a 2012-13-as szezonban és sikeresen indult az évad, hiszen két győzelemmel rajtolt a BFC Siófok és a Diósgyőri VTK ellen. A nagy riválisok közül legyőzte a Videoton FC-t és a Ferencvárosi TC-t, mely azt eredményezte, hogy egy ideig vezették a tabellát, de utána visszaesés jött és végül az ötödik helyen végeztek az őszi szezonban.</p>
-                <p>2013-ban hosszú idő után újra dobogón végzett a Bp. Honvéd , a Marco Rossi által vezetett együttes bronzérmet szerzett a bajnokságban.</p>
+                <p>Új edzővel, az olasz <span lang="it">Marco Rossi</span>val kezdett a csapat a 2012-13-as szezonban és sikeresen indult az évad, hiszen két győzelemmel rajtolt a BFC Siófok és a Diósgyőri VTK ellen. A nagy riválisok közül legyőzte a Videoton FC-t és a Ferencvárosi TC-t, mely azt eredményezte, hogy egy ideig vezették a tabellát, de utána visszaesés jött és végül az ötödik helyen végeztek az őszi szezonban.</p>
+                <p>2013-ban hosszú idő után újra dobogón végzett a Bp. Honvéd , a <span lang="it">Marco Rossi</span> által vezetett együttes bronzérmet szerzett a bajnokságban.</p>
                 <p>2017-ben az olasz trénernek ezt a bravúrt sikerült túlszárnyalnia visszatérése után. Az esélyeseket megelőzve, az utolsó fordulóban, a közvetlen riválist legyőzve a csapat elhódította a bajnoki címet, amely a klub történetében a 14. volt. A gólkirályi címet pedig 15 találattal Eppel Márton szerezte meg.</p>
-                <p>2018 -ban az Európa-ligát érő negyedik helyen végzett a csapat, a gólkirályi címet pedig Davide Lanzafame kapta meg 18 találatáért cserébe.</p>
-                <p>2019 -ben nagy hajrával sikerült megszereznünk a negyedik helyet, ráadásul tíz év szünet után ismét Magyar Kupa-döntőt játszhatott. Igaz, a siker elmaradt, de a bajnokság gólkirályát ebben az évben is Honvéd adta, a Magyar Futball Akadémiáról indult Holender Filip személyében . Az év tavaszán a Reditus Equity Zrt. megvásárolta a Klub 100%-os tulajdonjogát.</p>
+                <p>2018 -ban az Európa-ligát érő negyedik helyen végzett a csapat, a gólkirályi címet pedig <span lang="it">Davide Lanzafame</span> kapta meg 18 találatáért cserébe.</p>
+                <p>2019 -ben nagy hajrával sikerült megszereznünk a negyedik helyet, ráadásul tíz év szünet után ismét Magyar Kupa-döntőt játszhatott. Igaz, a siker elmaradt, de a bajnokság gólkirályát ebben az évben is Honvéd adta, a Magyar Futball Akadémiáról indult Holender Filip személyében . Az év tavaszán a <span lang="en">Reditus Equity</span> Zrt. megvásárolta a Klub 100%-os tulajdonjogát.</p>
                 <p>A magyar labdarúgó csapatok élvonalbeli mérkőzései alapján számított eredményességi listán az előkelő 3. helyet tudhatja magáénak.</p>
         </article>
-        <section class="video_sec">
+        <div class="video_sec">
             <video poster="honved_thumbnail.jpg" controls>
                 <source src="honved_bajnok.mp4" type="video/mp4">
                 <p>
                     Videó arról, ahogy a Honvéd megnyeri a bajnokságot 2017-ben.  
                 </p>
             </video>
-            <nav id="tartalomraugras" class="rejtett">
+            <nav class="tartalomraugras, rejtett">
                 <h2>A video szöveges leírása</h2>
                 <p><a target="_blank" href="honved_video.xhtml#honved_szoveg">Ugrás a videó szöveges leírására.</a></p>
             </nav>
-        </section>
+        </div>
         <section class="grid">
             <div class="column">
                 <h2 id="legendak">Legendás játékosok</h2>
@@ -115,20 +115,24 @@
             </div>
             <div class="column">
                 <h2 id="eredmenyek">Eredmények</h2>
-                <ul>
-                    <aside>
-                        <h3>Magyar bajnokság:</h3>
-                        <li>14 arany</li>
-                        <li>12 ezüst</li>
-                        <li>6 bronz</li>
-                        <h3>Magyar kupa:</h3>
-                        <li>8 arany</li>
-                        <li>11 ezüst</li>
-                        <li>1 bronz</li>
-                        <h3>Szuperkupa:</h3>
-                        <li>3 ezüst</li>
-                    </aside>
-                </ul>
+                <aside>
+                    <p class="title">Magyar bajnokság:</p>
+                        <ul >
+                            <li class="medals">14 arany</li>
+                            <li class="medals">12 ezüst</li>
+                            <li class="medals">6 bronz</li>
+                        </ul>
+                    <p class="title">Magyar kupa:</p>
+                        <ul>
+                            <li class="medals">8 arany</li>
+                            <li class="medals">11 ezüst</li>
+                            <li class="medals">1 bronz</li>
+                        </ul>
+                    <p class="title">Szuperkupa:</p>
+                        <ul>
+                            <li class="medals">3 ezüst</li>
+                        </ul>
+                </aside>
             </div>
         </section>
         <figure>
