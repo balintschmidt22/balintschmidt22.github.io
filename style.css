@@ -313,14 +313,10 @@ figcaption{
     background-color: aliceblue;
 }
 
-label{
-    font-family: sans-serif;
-    font-size: 0.9em;
-}
-
 .question{
-    font-family: serif;
-    font-size: 1.1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    margin-bottom: -12px;
 }
 
 .textbox{
@@ -348,7 +344,7 @@ fieldset{
         width: 55%;
     }
     .textbox{
-        width: 85%;
+        width: 100%;
     }
     .nb1logo{
         width: 55%;

@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="print.css">
 </head>
 <body>
-    <a name="top"></a>
+    <a id="top"></a>
     <header>
         <nav id="tartalomraugras" class="rejtett">
             <h2>Ugrás az oldalon belül</h2>
@@ -214,71 +214,71 @@
             <fieldset>
                 <legend>Pár kérdés a futballról</legend>
                 <section class="grid">
-                    <div class="row">
-                        <label class="question" for="best_players">Kiket tart a legjobb játékosoknak közülük?</label><br>
-                        <input type="checkbox" id="best_player1" name="best_players" value="Puskás Ferenc">
-                        <label for="best_player1">Puskás Ferenc</label><br>
-                        <input type="checkbox" id="best_player2" name="best_players" value="Kocsis Sándor">
-                        <label for="best_player2">Kocsis Sándor</label><br>
-                        <input type="checkbox" id="best_player3" name="best_players" value="Grosics Gyula">
-                        <label for="best_player3">Grosics Gyula</label><br>
-                        <input type="checkbox" id="best_player4" name="best_players" value="Czibor Zoltán">
-                        <label for="best_player4">Czibor Zoltán</label><br>
-                        <input type="checkbox" id="best_player5" name="best_players" value="Bene Ferenc">
-                        <label for="best_player5">Bene Ferenc</label><br>
-                        <input type="checkbox" id="best_player6" name="best_players" value="Nyilasi Tibor">
-                        <label for="best_player6">Nyilasi Tibor</label><br>
-                        <input type="checkbox" id="best_player7" name="best_players" value="Tichy Lajos">
-                        <label for="best_player7">Tichy Lajos</label><br>
-                        <input type="checkbox" id="best_player8" name="best_players" value="Albert Flórián">
-                        <label for="best_player8">Albert Flórián</label><br>
-                        <input type="checkbox" id="best_player9" name="best_players" value="Szusza Ferenc">
-                        <label for="best_player9">Szusza Ferenc</label><br>
-                        <input type="checkbox" id="best_player10" name="best_players" value="Mészöly Kálmán">
-                        <label for="best_player10">Mészöly Kálmán</label><br>
-                        <input type="checkbox" id="best_player11" name="best_players" value="Kubala László">
-                        <label for="best_player11">Kubala László</label><br>
-                        <input type="checkbox" id="best_player12" name="best_players" value="Buzánszky Jenő">
-                        <label for="best_player12">Buzánszky Jenő</label><br>
+                    <div class="column">
+                        <h3 class="question">Kiket tart a legjobb játékosoknak közülük?</h3><br>
+                            <input type="checkbox" id="best_player1" name="best_players" value="Puskás Ferenc">
+                            <label for="best_player1">Puskás Ferenc</label><br>
+                            <input type="checkbox" id="best_player2" name="best_players" value="Kocsis Sándor">
+                            <label for="best_player2">Kocsis Sándor</label><br>
+                            <input type="checkbox" id="best_player3" name="best_players" value="Grosics Gyula">
+                            <label for="best_player3">Grosics Gyula</label><br>
+                            <input type="checkbox" id="best_player4" name="best_players" value="Czibor Zoltán">
+                            <label for="best_player4">Czibor Zoltán</label><br>
+                            <input type="checkbox" id="best_player5" name="best_players" value="Bene Ferenc">
+                            <label for="best_player5">Bene Ferenc</label><br>
+                            <input type="checkbox" id="best_player6" name="best_players" value="Nyilasi Tibor">
+                            <label for="best_player6">Nyilasi Tibor</label><br>
+                            <input type="checkbox" id="best_player7" name="best_players" value="Tichy Lajos">
+                            <label for="best_player7">Tichy Lajos</label><br>
+                            <input type="checkbox" id="best_player8" name="best_players" value="Albert Flórián">
+                            <label for="best_player8">Albert Flórián</label><br>
+                            <input type="checkbox" id="best_player9" name="best_players" value="Szusza Ferenc">
+                            <label for="best_player9">Szusza Ferenc</label><br>
+                            <input type="checkbox" id="best_player10" name="best_players" value="Mészöly Kálmán">
+                            <label for="best_player10">Mészöly Kálmán</label><br>
+                            <input type="checkbox" id="best_player11" name="best_players" value="Kubala László">
+                            <label for="best_player11">Kubala László</label><br>
+                            <input type="checkbox" id="best_player12" name="best_players" value="Buzánszky Jenő">
+                            <label for="best_player12">Buzánszky Jenő</label><br>
                         <br>
-                        <label class="question" for="nb1">Ön követi az NB1 mérkőzéseit?</label><br>
-                        <input type="radio" id="yes" name="nb1" value="Igen">
-                        <label for="yes">Igen</label><br>
-                        <input type="radio" id="no" name="nb1" value="Nem">
-                        <label for="no">Nem</label><br>
+                        <h3 class="question">Ön követi az NB1 mérkőzéseit?</h3><br>
+                            <input type="radio" id="yes" name="nb1" value="Igen">
+                            <label for="yes">Igen</label><br>
+                            <input type="radio" id="no" name="nb1" value="Nem">
+                            <label for="no">Nem</label><br>
                         <br>
-                        <label class="question" for="favourite">Ki a kedvenc külföldi játékosa?</label><br>
-                        <input class="textbox" type="text" id="favourite" size="40" maxlength="50" placeholder="Írja ide a játékos nevét!">
+                        <h3 class="question"><label for="favourite">Ki a kedvenc külföldi játékosa?</label></h3><br>
+                            <input class="textbox" type="text" id="favourite" size="40" maxlength="50" placeholder="Írja ide a játékos nevét!">
                     </div>
-                    <div class="row">
-                        <label class="question" for="fav_team">Melyik a kedvenc csapata a jelenlegi NB1-es mezőnyből?</label><br>
-                        <input type="radio" id="fav_team1" name="fav_team" value="Ferencváros">
-                        <label for="fav_team1">Ferencváros</label><br>
-                        <input type="radio" id="fav_team2" name="fav_team" value="Videoton">
-                        <label for="fav_team2">Videoton</label><br>
-                        <input type="radio" id="fav_team3" name="fav_team" value="Puskás Akadémia">
-                        <label for="fav_team3">Puskás Akadémia</label><br>
-                        <input type="radio" id="fav_team4" name="fav_team" value="Újpest">
-                        <label for="fav_team4">Újpest</label><br>
-                        <input type="radio" id="fav_team5" name="fav_team" value="Kisvárda">
-                        <label for="fav_team5">Kisvárda</label><br>
-                        <input type="radio" id="fav_team6" name="fav_team" value="Mezőkövesd">
-                        <label for="fav_team6">Mezőkövesd</label><br>
-                        <input type="radio" id="fav_team7" name="fav_team" value="Gyirmót FC Győr">
-                        <label for="fav_team7">Gyirmót FC Győr</label><br>
-                        <input type="radio" id="fav_team8" name="fav_team" value="MTK">
-                        <label for="fav_team8">MTK</label><br>
-                        <input type="radio" id="fav_team9" name="fav_team" value="ZTE">
-                        <label for="fav_team9">ZTE</label><br>
-                        <input type="radio" id="fav_team10" name="fav_team" value="Paks">
-                        <label for="fav_team10">Paks</label><br>
-                        <input type="radio" id="fav_team11" name="fav_team" value="Honvéd">
-                        <label for="fav_team11">Honvéd</label><br>
-                        <input type="radio" id="fav_team12" name="fav_team" value="DVSC">
-                        <label for="fav_team12">DVSC</label><br>
+                    <div class="column">
+                        <h3 class="question">Melyik a kedvenc csapata a jelenlegi NB1-es mezőnyből?</h3><br>
+                            <input type="radio" id="fav_team1" name="fav_team" value="Ferencváros">
+                            <label for="fav_team1">Ferencváros</label><br>
+                            <input type="radio" id="fav_team2" name="fav_team" value="Videoton">
+                            <label for="fav_team2">Videoton</label><br>
+                            <input type="radio" id="fav_team3" name="fav_team" value="Puskás Akadémia">
+                            <label for="fav_team3">Puskás Akadémia</label><br>
+                            <input type="radio" id="fav_team4" name="fav_team" value="Újpest">
+                            <label for="fav_team4">Újpest</label><br>
+                            <input type="radio" id="fav_team5" name="fav_team" value="Kisvárda">
+                            <label for="fav_team5">Kisvárda</label><br>
+                            <input type="radio" id="fav_team6" name="fav_team" value="Mezőkövesd">
+                            <label for="fav_team6">Mezőkövesd</label><br>
+                            <input type="radio" id="fav_team7" name="fav_team" value="Gyirmót FC Győr">
+                            <label for="fav_team7">Gyirmót FC Győr</label><br>
+                            <input type="radio" id="fav_team8" name="fav_team" value="MTK">
+                            <label for="fav_team8">MTK</label><br>
+                            <input type="radio" id="fav_team9" name="fav_team" value="ZTE">
+                            <label for="fav_team9">ZTE</label><br>
+                            <input type="radio" id="fav_team10" name="fav_team" value="Paks">
+                            <label for="fav_team10">Paks</label><br>
+                            <input type="radio" id="fav_team11" name="fav_team" value="Honvéd">
+                            <label for="fav_team11">Honvéd</label><br>
+                            <input type="radio" id="fav_team12" name="fav_team" value="DVSC">
+                            <label for="fav_team12">DVSC</label><br>
                         <br>
-                        <label class="question" for="thoughts">Miben fejlődhetne még az oldal?</label><br>
-                        <textarea class="textbox" id="thoughts" cols="50" rows="6" maxlength="1000" placeholder="Ide írja javaslatait (max. 1000 karakter)"></textarea>
+                        <h3 class="question"><label for="thoughts">Miben fejlődhetne még az oldal?</label></h3><br>
+                            <textarea class="textbox" id="thoughts" cols="50" rows="6" maxlength="1000" placeholder="Ide írja javaslatait (max. 1000 karakter)"></textarea>
                     </div>
                 </section>
             </fieldset>
