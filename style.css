@@ -343,6 +343,10 @@ fieldset{
     font-size: 1em;
 }
 
+abbr{
+    text-decoration: none;   
+}
+
 @media screen and (max-width: 1007px) {
     .img_right{
         width: 20%;
