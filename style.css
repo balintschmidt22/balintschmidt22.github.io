@@ -1,0 +1,399 @@
+body{
+    background-color: black;
+    color: rgb(0 ,174, 0);
+    font-size: 1em;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rejtett{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+nav#tartalomraugras a{
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+nav#tartalomraugras a:focus{
+    position:static; 
+    background-color:white;
+    width: auto;
+    height: auto;
+}
+
+a:link{
+    color: rgb(87, 205, 87);
+}
+a:hover{
+    color: lightgreen;
+}
+a:visited{
+    color: rgb(69, 151, 69);
+}
+a:active{
+    color: lightgreen;
+}
+
+.gyengenlato{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    border: 3px solid rgb(0 ,174, 0);
+    border-radius: 20px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    table-layout: fixed;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    overflow-x: auto;
+}
+
+.navbar1_1{
+    background-image: url(puskas_arena.jpg);
+    background-position: center;
+    text-align: center;
+}
+
+.navbardiv1_1{
+    width: auto;
+    column-fill: auto;
+    overflow: hidden;
+}
+
+.navbarh11_1{
+    font-size: 3.6em;
+    color: black;
+    font-family: sans-serif;
+}
+
+.navbarimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.nb1logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+details {
+    font-size: 0.9em;
+    color: rgb(0 ,174, 0);
+}
+
+details p{
+    text-align: center;
+}
+
+strong{
+    color: rgb(0 ,174, 0);
+    font-size: 1.3em;
+}
+
+.nb1tabella{
+    text-align: center;
+    background-color: rgb(22, 77, 22);
+    color: white;
+    width: 30%;
+    border: 1px solid white;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+
+aside{
+    font-size: 0.9em;
+}
+
+aside li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nb1tabellah{
+    color: white;
+    background-color: rgb(22,77,22);
+    font-size: 1.1em;
+}
+
+.nb1tabella1{
+    background-color: rgb(185, 158, 8);
+}
+
+.nb1tabella2{
+    background-color: rgb(140, 134, 134);
+}
+
+.nb1tabella3{
+    background-color: rgb(177, 110, 34);
+}
+
+.nb1tabellakieso{
+    background-color: rgb(208, 65, 65);
+}
+
+.nb1tabellasz{
+    font-size: 0.7em;
+    color: rgb(223, 217, 217);
+    font-style: italic;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.mlszlogo{
+    width: 20%;
+}
+
+.navbartr1{
+    align-content: center;
+}
+
+.navbarul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbarli {
+    display: inline;
+    font-size: 1.25em;
+    float: none;
+    border-right: 1px solid rgb(0 ,174, 0);
+}
+
+.navbarli:last-child {
+    border-right: none;
+}
+
+.navbarli a {
+    color: rgb(0 ,174, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.navbarli a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.active{
+    display: inline;
+    font-size: 1.25em;
+    font-style: italic;
+    float: none;
+    border-right: 1px solid rgb(0 ,174, 0);
+}
+
+.active a{
+    color: rgb(208, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active a:hover {
+    text-decoration: underline;
+}
+
+.nav{
+    border-bottom: 1px solid rgb(0 ,174, 0);
+    border-right: 1px solid rgb(0 ,174, 0);
+    border-left: 1px solid rgb(0 ,174, 0);
+    width: auto;
+}
+
+.ul_nav{
+    text-align: center;
+    overflow: hidden;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    justify-items: center;
+}
+
+.img_right{
+    float: right;
+    margin-right: 20px;
+    margin-left: 15px;
+    width: 13%;
+    height: auto;
+}
+
+.img_right_bigger{
+    float: right;
+    margin-right: 20px;
+    margin-left: 15px;
+    width: 20%;
+    height: auto;
+}
+
+.img_center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    height: auto;
+}
+
+.line{
+    border-style: dashed;
+    color: rgb(0 ,174, 0);
+    width: 97%;
+}
+
+.source{
+    width: 100%;
+    text-align: center;
+}
+
+.source p{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.source a{
+    font-style: italic;
+    font-size: 0.65em;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+video{
+    width: 50%;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+
+.video_sec{
+    text-align: center;
+}
+
+.buttons{
+    margin-left: 10px;
+    font-size: 0.9em;
+    background-color: aliceblue;
+}
+
+label{
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+.question{
+    font-family: serif;
+    font-size: 1.1em;
+}
+
+.textbox{
+    margin-top: 6px;
+    margin-bottom: 10px;
+    background-color: aliceblue;
+}
+
+fieldset{
+    border-color: rgb(0 ,174, 0);
+}
+
+.top{
+    font-size: 0.8em;
+}
+
+@media screen and (max-width: 1007px) {
+    .img_right{
+        width: 20%;
+    }
+    .img_right_bigger{
+        width: 20%;
+    }
+    .img_center{
+        width: 55%;
+    }
+    .textbox{
+        width: 85%;
+    }
+    .nb1logo{
+        width: 55%;
+    }
+    .mlszlogo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navbarli {
+        position: relative;
+        border-right: none;
+        font-size: 1em;
+    }
+    .navbarli a {
+      float: none;
+      display: block;
+      text-align: center;
+      padding: 0px;
+    }
+    .active {
+        border-right: none;
+        position: relative;
+        font-size: 1em;
+    }
+    .active a {
+        float: none;
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+    .grid {
+        grid-auto-flow: row;
+    }
+    .img_right{
+        width: 30%;
+    }
+    .img_right_bigger{
+        width: 30%;
+    }
+    .img_center{
+        width: 70%;
+    }
+    .nb1logo{
+        width: 70%;
+    }
+}
